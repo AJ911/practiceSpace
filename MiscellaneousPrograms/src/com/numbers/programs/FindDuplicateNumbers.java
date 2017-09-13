@@ -10,8 +10,13 @@ public class FindDuplicateNumbers {
 
 	public static void main(String[] args) {
 
-		int[] intArr = new int[] { 10, 10, 12, 12, 34, 56, 34 };
-		FindDuplicateNumbers.findDuplicate(Arrays.asList(intArr));
+		Integer intArr[] = { 10, 10, 12, 12, 34, 56, 34 };
+		List<Integer> dupList = FindDuplicateNumbers.findDuplicate(Arrays.asList(intArr));
+
+		System.out.println("following numbers are repeating in your array");
+		for (int i : dupList) {
+			System.out.println(i);
+		}
 
 	}
 
