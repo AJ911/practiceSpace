@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.java.programs;
+package com.java.singleton;
 
 /**
  * @author Avanindra
