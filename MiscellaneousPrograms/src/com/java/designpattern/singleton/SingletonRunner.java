@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.java.singleton;
+package com.java.designpattern.singleton;
 
 /**
  * @author Avanindra
