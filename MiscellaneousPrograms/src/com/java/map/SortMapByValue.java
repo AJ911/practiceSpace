@@ -32,16 +32,20 @@ public class SortMapByValue {
 		Set<Entry<String, Integer>> mapSet = myMap.entrySet();
 		List<Entry<String, Integer>> mapList = new ArrayList<>(mapSet);
 
-		Collections.sort(mapList, );
+		Collections.sort(mapList, valueComparator);
+
+		for (Map.Entry<String, Integer> listElement : mapList)
+			System.out.println(listElement.getKey() + " -" + listElement.getValue());
 
 	}
 
-	Comparator<Integer> valueComparator = new Comparator<Integer>() {
+	static Comparator<Map.Entry<String, Integer>> valueComparator = new Comparator<Map.Entry<String, Integer>>() {
 
 		@Override
-		public int compare(Integer arg0, Integer arg1) {
+		public int compare(Map.Entry<String, Integer> entryOne, Map.Entry<String, Integer> entryTwo) {
 
-			return 0;
+			return entryOne.getValue().compareTo(entryTwo.getValue());
+
 		}
 	};
 
