@@ -15,7 +15,10 @@ public class DeadlockRunner {
 	public static void main(String[] args) {
 
 		MyDeadlockClass mdcOne = new MyDeadlockClass();
+		mdcOne.trd1.setName("thread-One");
 		mdcOne.trd1.start();
+
+		mdcOne.trd2.setName("thread-Two");
 		mdcOne.trd2.start();
 
 	}
