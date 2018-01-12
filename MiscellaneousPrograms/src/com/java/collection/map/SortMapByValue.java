@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.java.map;
+package com.java.collection.map;
 
 import java.util.ArrayList;
 import java.util.Collections;

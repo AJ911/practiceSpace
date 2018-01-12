@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.java.pc;
+package com.java.multithreading.producerConsumer;
 
 /**
  * @author Avanindra

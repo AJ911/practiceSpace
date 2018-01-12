@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.java.deadlock;
+package com.java.multithreading.deadlock;
 
 /**
  * @author Avanindra

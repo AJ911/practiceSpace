@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.arrays.linearsearch;
+package com.array.searching;
 
 import java.util.Scanner;
 
